@@ -40,3 +40,5 @@ jobs:
       run: |
         docker tag movie-frontend:latest 296890349261.dkr.ecr.us-east-1.amazonaws.com/movie-frontend:v${GITHUB_RUN_NUMBER}
         docker push 296890349261.dkr.ecr.us-east-1.amazonaws.com/movie-frontend:v${GITHUB_RUN_NUMBER}
+
+  
